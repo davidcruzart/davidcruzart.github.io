@@ -1,0 +1,233 @@
+@font-face{
+    font-family: 'BreakingBad';
+    src:url('../Breaking\ Bad.ttf')
+}
+
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-fondo{
+    background-image:url(../IMG/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    min-height: 100vh
+}
+
+
+#logo{
+    width: 200px;
+    height: 200px;
+    background-image: url(../IMG/logo.PNG);
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;       
+}
+
+#poster{
+    margin: auto;
+    border-radius: 22px;
+    border: 10px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    overflow: hidden;
+}
+
+#poster img {
+    width: 700px;
+    height: 300px;
+}
+
+#breaking-bad-text{
+    color: white;
+    font-family: 'BreakingBad';
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2rem;        
+}
+
+/*TABLAS*/
+
+.color-body-fondo{
+    background-color: #0c3e11;
+}
+
+#cabecera{  
+    content: url(../IMG/cabecera.png);
+    margin: auto;
+    margin-top: 2rem;
+    padding-right: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: fit-content; 
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+table{
+    background-color: #2b2c24;
+    border-collapse: separate; 
+    border-spacing: 0.2rem;
+    border-color: #2b2c24;
+    border-style: solid;
+    empty-cells: hide;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b2c24;
+    background-color: #2b2c24;
+    border-width: 0.2rem;
+    border-color: #2b2c24;
+    border-style: solid;
+    width: 70px;
+    height: 70px;
+    empty-cells: hide;
+    text-align: center;
+      
+}
+
+/*CELDAS*/
+.celdas_VerdeWalter{
+    background-color: #b8d825;
+}
+.celdas_VerdeMasClaro{
+    background-color: #d5ea71;
+}
+.celdas_GrisGus{
+    background-color: #bcc49b;
+}
+.celdas_Perlado{
+    background-color: #eff6c9;
+}
+.celdas_VerdeSaul{
+    background-color: #89a419;
+}
+.celdas_GrisVerdoso{
+    background-color: #828d51;
+}
+.celdas_VerdeSalamancas{
+    background-color: #c5e145;
+}
+.celdas_VerdeBadger{
+    background-color: #637027;
+}
+.segunda-tabla td{
+    background-color: #c2c629;
+}
+
+#celda_PurpleMarie{
+    background-color: #ab8ecd;
+}
+
+.letra-grande{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.letra-pequeña{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+#celda-hank{
+    padding: 0; 
+    margin: 0;  
+    border-spacing: 0; 
+    text-align: center;
+    overflow: hidden; 
+}
+
+
+/*FORMULARIO*/
+
+h1 {
+    display: block;
+    width: max-content; 
+    margin: auto;
+    text-align: center;
+    background-color: #0c3e1194;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    width: 500px;
+    height: auto;
+    border: 2p solid #666;
+    background-color: #0c3e1194;
+    border-radius: 10px;
+    margin: auto;
+    padding: 2rem;
+}
+
+#enviar {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+}
+#borrar{
+    background-color: #dd4b11;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+}
+#adjunto{
+    background-color: #dd4b11;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.campo {
+    display: block;
+}
+
+.campo label {
+    display: inline-block;
+    width: 6rem;
+    margin: 0.5rem 0;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+
+input[type="submit"], input[type="reset"] {
+    display: block; 
+    margin: 1rem auto; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="number"] {
+    height: 10px;
+    width: 60px; 
+    padding: 5px;
+    font-size: 14px; 
+    text-align: center; 
+}
+
